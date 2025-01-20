@@ -1,0 +1,16 @@
+module.exports = {
+        apps: [{
+        name: 'RAGBOT',
+        script: '/var/www/elyasia/dist/index.js',
+        env: {
+                "HOST": "212.192.31.208",
+                "PORT": "3000",
+                "BOT_TOKEN": "8157774923:AAHQHkdY7ayR2e8t3AznO7kAAiZ6TmpeLOk",
+                "WEBHOOK_URL": "8157774923:AAHQHkdY7ayR2e8t3AznO7kAAiZ6TmpeLOk",
+                "OPENAI_API_KEY": "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",
+                "PINECONE_TOKEN": "pcsk_76u5sJ_EfVPUrqhxokat3isqMzUuB6gm6w88L2M2Fm9agiHzsMKDSM3TpqtLwF3KapReUk",
+                "PINECONE_INDEX_NAME": "telegram"
+        }
+        }]
+};
+

@@ -1,0 +1,22 @@
+{
+  "name": "hi-elysia",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "build": "bun run esbuild src/index.ts --bundle --minify --platform=node --outdir=dist",
+    "start": "bun run dist/index.js"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^1.2.0",
+    "@pinecone-database/pinecone": "^4.1.0",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "elysia": "latest",
+    "node-telegram-bot-api": "^0.63.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "esbuild": "^0.24.2"
+  },
+  "module": "src/index.js"
+}
